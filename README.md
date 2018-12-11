@@ -8,7 +8,8 @@ View the **[demo application](https://angularjs.realworld.io)** or **[learn how 
 
 1. Clone repo
 2. `npm install`
-3. `gulp`
+3. `cp src/js/config/app.constants-dev.js src/js/config/app.constants.js`
+4. `gulp`
 
 Make sure you have gulp installed globally (`npm install -g gulp`)
 
