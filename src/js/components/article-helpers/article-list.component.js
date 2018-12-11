@@ -3,6 +3,7 @@ class ArticleListCtrl {
     'ngInject';
 
     this._Articles = Articles;
+    this.limit = 25;
 
     this.setListTo(this.listConfig);
 
